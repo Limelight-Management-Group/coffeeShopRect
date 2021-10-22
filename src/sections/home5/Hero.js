@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
+// import Custom from "../../assets/css/home-5/hero.css"
 
-import imgM from "../../assets/image/home-5/png/monkeyHandImage.png";
+import imgM from "../../assets/image/home-5/png/heroImageCoffee.png";
 // import imgYS from "../../assets/image/home-5/png/monkeyHandImage.png";
 
 const Hero = ({ className, ...rest }) => {
@@ -11,9 +12,9 @@ const Hero = ({ className, ...rest }) => {
         <div className="row align-items-center justify-content-center position-static">
           {/* Hero Image */}
           <div className="col-xl-6 col-lg-6 col-md-7 col-xs-8 position-static">
-            <div className="l6-hero-image-group">
+            <div className="">
               <img
-                className="w-100"
+                className="col-xl-16 col-lg-14 col-md-12"
                 src={imgM}
                 alt=""
                 data-aos="fade-up"

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-import imgM from "../../assets/image/home-5/png/farLeftCoffee.png";
+import imgM from "../../assets/image/home-5/png/farLeftBtnIMG.png";
 import imgM2 from "../../assets/image/home-5/png/secondFromLeft.png";
 import imgM3 from "../../assets/image/home-5/png/secondFromRight.png";
-import imgM4 from "../../assets/image/home-5/png/farRight.png";
+import imgM4 from "../../assets/image/home-5/png/farRightMenuItem.png";
 
 const MusicArea = ({ className, ...rest }) => {
   return (
