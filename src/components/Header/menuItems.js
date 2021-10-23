@@ -13,7 +13,7 @@ export const menuItems = [
   },
   {
     name: "pages",
-    label: "pages",
+    label: "Partner",
     items: [
       { name: "about", label: "About Us" },
       {
@@ -51,7 +51,7 @@ export const menuItems = [
   },
   {
     name: "https://uxtheme.net/product-support/",
-    label: "Support",
+    label: "Join the Next Cohort",
     isExternal: true,
   },
 ];
