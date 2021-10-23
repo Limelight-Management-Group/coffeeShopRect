@@ -7,7 +7,7 @@ import GlobalContext from "../../context/GlobalContext";
 import Offcanvas from "../Offcanvas";
 import Menu from "./Menu";
 import NestedMenu from "../NestedMenu";
-import Logo from "../Logo";
+import Logo from "../Logo/CoffeeLogo";
 
 const SiteHeader = styled.header``;
 

@@ -24,6 +24,7 @@ import "../assets/fonts/fontawesome-5/css/all.css";
 
 import "../assets/scss/bootstrap.scss";
 import "../assets/scss/main.scss";
+import "../assets/css/home-5/hero.css";
 
 const MyApp = ({ Component, pageProps, router }) => {
   if (router.pathname.match(/sign|reset|coming/)) {

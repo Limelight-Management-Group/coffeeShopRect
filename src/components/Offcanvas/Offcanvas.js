@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import styled from "styled-components";
-import Logo from "../Logo";
+import CoffeeLogo from "../Logo/CoffeeLogo";
 
 const Overlay = styled.div`
   position: fixed;

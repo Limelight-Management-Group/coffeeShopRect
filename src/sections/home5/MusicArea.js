@@ -5,6 +5,7 @@ import imgM from "../../assets/image/home-5/png/farLeftBtnIMG.png";
 import imgM2 from "../../assets/image/home-5/png/secondFromLeft.png";
 import imgM3 from "../../assets/image/home-5/png/secondFromRight.png";
 import imgM4 from "../../assets/image/home-5/png/farRightMenuItem.png";
+import { paddingBottom } from "styled-system";
 
 const MusicArea = ({ className, ...rest }) => {
   return (
@@ -110,7 +111,11 @@ const MusicArea = ({ className, ...rest }) => {
                 data-aos-duration={1200}
               >
                 <div className="mb-14">
-                  <img className="w-100" src={imgM4} alt="" />
+                  <img className="w-100" src={imgM4} alt="" style={{
+                    paddingBottom: '35px',
+                    marginTop: '5px'
+
+                  }}/>
                 </div>
                 <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
                   $99
